@@ -23,8 +23,7 @@ public class GoogleBillboard {
      if(dNum % i == 0)
      return false;
     }
-		else{
-    return true;
-		}
+		
+    return true;	
 }
 }
