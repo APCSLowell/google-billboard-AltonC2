@@ -20,8 +20,9 @@ public class GoogleBillboard {
 	
     double nlength = Math.sqrt(dNum);
     for(int i =2; i <= nlength; i++){
-     if(dNum % i == 0)
+     if(dNum % i == 0){
      return false;
+    }
     }
 		
     return true;	
